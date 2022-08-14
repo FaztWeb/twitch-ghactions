@@ -10,7 +10,7 @@ on:
 jobs:
   build:
 
-    runs-on: twitch-server
+    runs-on: [twitch-server]
 
     strategy:
       matrix:
